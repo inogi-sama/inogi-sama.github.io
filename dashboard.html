@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domel Intelligence · dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" type="text/css" rel="stylesheet">
+    <script src="./tailwindcss.js"></script>
+  <link rel="stylesheet" href="./app.css"><script src="./app.js" defer></script></head>
+  <body data-page="dashboard">
+    <div data-type="PAGE" class="relative w-[1440px] h-[1321px] bg-[#F6F7F9]/[1] overflow-y-auto overflow-x-hidden">
+  <div data-type="CONTAINER" class="w-[256px] h-[1322px] absolute top-[0px] left-[0px] z-[0] bg-[#EAECEE]/[1] opacity-[1]">
+    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+      <div data-type="DIVIDER" class="absolute top-[0px] left-[256px] z-[0] w-[1322px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1] rotate-[90deg] origin-left"></div>
+      <div data-type="IMAGE" class="absolute top-[24px] left-[24px] z-[1] w-[40px] h-[40px] rounded-[9999px] opacity-[1] overflow-hidden">
+        <img src="./assets/dashboard/IMG_1.webp" class="absolute max-w-none max-h-none top-[0px] left-[0px] w-[40px] h-[40px]">
+      </div>
+      <span data-type="TEXT" class="absolute top-[26px] left-[76px] z-[2] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[600] text-left tracking-[0px] opacity-[1]">Domel</span>
+      <span data-type="TEXT" class="absolute top-[46px] left-[76px] z-[3] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[10px] leading-[15px] font-[400] text-left tracking-[1px] uppercase opacity-[1]">Intelligence</span>
+      <button data-type="BUTTON" class="absolute top-[104px] left-[16px] z-[4] min-w-[223px] h-[40px] px-[12px] flex items-center justify-start gap-[12px] bg-[#CBF0EA]/[1] rounded-[6px] opacity-[1]">
+        <img class="w-[20px] h-[20px] text-[#002622]/[1]" data-icon="Lucide_layout-dashboard_Outlined" src="./assets/dashboard/IMG_2.svg">
+        <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#002622]/[1]"> Dashboard </span>
+      </button>
+      <button data-type="BUTTON" class="absolute top-[148px] left-[16px] z-[5] min-w-[223px] h-[40px] px-[12px] flex items-center justify-start gap-[12px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+        <img class="w-[20px] h-[20px] text-[#0F172A]/[0.7]" data-icon="Lucide_search_Outlined" src="./assets/dashboard/IMG_3.svg">
+        <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#0F172A]/[0.7]"> New Research </span>
+      </button>
+      <button data-type="BUTTON" class="absolute top-[192px] left-[16px] z-[6] min-w-[223px] h-[40px] px-[12px] flex items-center justify-start gap-[12px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+        <img class="w-[20px] h-[20px] text-[#0F172A]/[0.7]" data-icon="Lucide_file-text_Outlined" src="./assets/dashboard/IMG_4.svg">
+        <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#0F172A]/[0.7]"> Reports </span>
+      </button>
+      <button data-type="BUTTON" class="absolute top-[236px] left-[16px] z-[7] min-w-[223px] h-[40px] px-[12px] flex items-center justify-start gap-[12px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+        <img class="w-[20px] h-[20px] text-[#0F172A]/[0.7]" data-icon="Lucide_chart-column_Outlined" src="./assets/dashboard/IMG_5.svg">
+        <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#0F172A]/[0.7]"> Insights </span>
+      </button>
+      <div data-type="CONTAINER" class="w-[224px] h-[153px] absolute top-[1144px] left-[16px] z-[8] bg-[#000000]/[0] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <div data-type="DIVIDER" class="absolute top-[0px] left-[0px] z-[0] w-[224px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+          <button data-type="BUTTON" class="absolute top-[24px] left-[0px] z-[1] min-w-[223px] h-[40px] px-[12px] flex items-center justify-start gap-[12px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+            <img class="w-[20px] h-[20px] text-[#0F172A]/[0.7]" data-icon="Lucide_settings_Outlined" src="./assets/dashboard/IMG_6.svg">
+            <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#0F172A]/[0.7]"> Settings </span>
+          </button>
+          <button data-type="BUTTON" class="absolute top-[68px] left-[0px] z-[2] min-w-[223px] h-[40px] px-[12px] flex items-center justify-start gap-[12px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+            <img class="w-[20px] h-[20px] text-[#0F172A]/[0.7]" data-icon="Lucide_circle-help_Outlined" src="./assets/dashboard/IMG_7.svg">
+            <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#0F172A]/[0.7]"> Help Center </span>
+          </button>
+          <button data-type="BUTTON" class="absolute top-[112px] left-[0px] z-[3] min-w-[223px] h-[40px] px-[12px] flex items-center justify-start gap-[12px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+            <img class="w-[20px] h-[20px] text-[#EF4444]/[1]" data-icon="Lucide_log-out_Outlined" src="./assets/dashboard/IMG_8.svg">
+            <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#EF4444]/[1]"> Sign Out </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-type="CONTAINER" class="w-[1184px] h-[64px] absolute top-[0px] left-[256px] z-[3] bg-[#F6F7F9]/[1] opacity-[1]">
+    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+      <div data-type="TEXTBOX" data-style="standard" class="absolute top-[13px] left-[796px] z-[6] w-[256px] h-[36px] opacity-[1]">
+        <div data-role="ELEMENT_WITH_LABEL_CONTENT_WRAPPER" class="flex flex-col justify-center h-full w-full">
+          <div data-role="ELEMENT_WITH_LABEL_INPUT_WRAPPER" class="relative flex items-center w-full flex-grow px-[10px] bg-[#DFE1E4]/[0.5] rounded-[6px] gap-[6px]">
+            <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_search_Outlined" src="./assets/dashboard/IMG_3.svg">
+            <input type="text" value="" placeholder="Search research, competitors..." class="w-full flex-1 text-[#595C61]/[1] text-[14px] leading-[22px] font-[400] font-[Inter] text-left placeholder:text-[#595C61]/[1] outline-none bg-transparent border-none" />
+          </div>
+        </div>
+      </div>
+      <div data-type="CONTAINER" class="w-[36px] h-[36px] absolute top-[13px] left-[1124px] z-[9] bg-[#0F172A]/[1] rounded-[9999px] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[9px] left-[10px] z-[0] whitespace-pre text-[#F6F7F9]/[1] font-[Inter] text-[12px] leading-[16px] font-[700] text-center tracking-[0px] opacity-[1]">JD</span>
+        </div>
+      </div>
+      <div data-type="RECTANGLE" class="absolute top-[19px] left-[1092px] z-[8] w-[8px] h-[8px] bg-[#EF4444]/[1] border-[2px] border-[#F6F7F9]/[1] rounded-[9999px] opacity-[1]"></div>
+      <span data-type="TEXT" class="absolute top-[21px] left-[24px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Projects</span>
+      <span data-type="TEXT" class="absolute top-[21px] left-[111px] z-[3] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Industrial Motors 2024</span>
+      <span data-type="TEXT" class="absolute top-[21px] left-[295px] z-[5] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Market Insights</span>
+      <img data-type="ICON" class="absolute top-[21px] left-[1078px] z-[7] w-[20px] h-[20px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_bell_Outlined" src="./assets/dashboard/IMG_9.svg">
+      <img data-type="ICON" class="absolute top-[23px] left-[86px] z-[2] w-[16px] h-[16px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_chevron-right_Outlined" src="./assets/dashboard/IMG_10.svg">
+      <img data-type="ICON" class="absolute top-[23px] left-[270px] z-[4] w-[16px] h-[16px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_chevron-right_Outlined" src="./assets/dashboard/IMG_10.svg">
+      <div data-type="DIVIDER" class="absolute top-[64px] left-[0px] z-[0] w-[1184px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+    </div>
+  </div>
+  <div data-type="CONTAINER" class="w-[1184px] h-[1209px] absolute top-[64px] left-[256px] z-[1] bg-[#000000]/[0] opacity-[1]">
+    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit] overflow-auto">
+      <span data-type="TEXT" class="absolute top-[32px] left-[32px] z-[0] whitespace-pre text-[#0F172A]/[1] font-[Fraunces] text-[32px] leading-[40px] font-[600] text-left tracking-[0px] opacity-[1]">Research Dashboard</span>
+      <div data-type="CONTAINER" class="w-[100px] h-[40px] absolute top-[46px] left-[880px] z-[2] bg-[#F6F7F9]/[1] rounded-[6px] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[10px] left-[48px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-center tracking-[0px] opacity-[1]">Filter</span>
+          <img data-type="IMAGE" class="absolute top-[12px] left-[16px] z-[0] w-[16px] h-[16px] opacity-[1]" src="./assets/dashboard/IMG_11.svg">
+        </div>
+        <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#D4D6DA]/[1]"></div>
+      </div>
+      <button data-type="BUTTON" class="absolute top-[46px] left-[991px] z-[3] min-w-[161px] h-[40px] px-[16px] flex items-center justify-center gap-[16px] bg-[#0F172A]/[1] rounded-[6px] shadow-[0px_1px_3px_0px_#0F172A1a] opacity-[1]">
+        <img class="w-[16px] h-[16px] text-[#F6F7F9]/[1]" data-icon="Lucide_plus_Outlined" src="./assets/dashboard/IMG_12.svg">
+        <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#F6F7F9]/[1]"> New Research </span>
+      </button>
+      <span data-type="TEXT" class="absolute top-[76px] left-[32px] z-[1] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[16px] leading-[24px] font-[400] text-left tracking-[0px] opacity-[1]">Monitor and manage your strategic intelligence operations for Domel Electric Motors.</span>
+      <div data-type="CONTAINER" class="w-[262px] h-[134px] absolute top-[132px] left-[32px] z-[4] bg-[#F6F7F9]/[1] rounded-[8px] shadow-[0px_1px_3px_0px_#0F172A1a] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[24px] left-[25px] z-[0] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Active Projects</span>
+          <div data-type="CONTAINER" class="w-[40px] h-[40px] absolute top-[30px] left-[197px] z-[2] bg-[#CBF0EA]/[0.3] rounded-[9999px] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <img data-type="ICON" class="absolute top-[10px] left-[10px] z-[0] w-[20px] h-[20px] text-[#0C9488]/[1] opacity-[1]" data-icon="Lucide_activity_Outlined" src="./assets/dashboard/IMG_13.svg">
+            </div>
+          </div>
+          <span data-type="TEXT" class="absolute top-[45px] left-[25px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[24px] leading-[32px] font-[600] text-left tracking-[0px] opacity-[1]">12</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[25px] z-[3] whitespace-pre text-[#16A34A]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">+2</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[48px] z-[4] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">vs last month</span>
+        </div>
+        <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#D4D6DA]/[1]"></div>
+      </div>
+      <div data-type="CONTAINER" class="w-[262px] h-[134px] absolute top-[132px] left-[318px] z-[5] bg-[#F6F7F9]/[1] rounded-[8px] shadow-[0px_1px_3px_0px_#0F172A1a] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[24px] left-[25px] z-[0] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Completed Reports</span>
+          <div data-type="CONTAINER" class="w-[40px] h-[40px] absolute top-[30px] left-[197px] z-[2] bg-[#CBF0EA]/[0.3] rounded-[9999px] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <img data-type="ICON" class="absolute top-[10px] left-[10px] z-[0] w-[20px] h-[20px] text-[#0C9488]/[1] opacity-[1]" data-icon="Lucide_file-text_Outlined" src="./assets/dashboard/IMG_4.svg">
+            </div>
+          </div>
+          <span data-type="TEXT" class="absolute top-[45px] left-[25px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[24px] leading-[32px] font-[600] text-left tracking-[0px] opacity-[1]">48</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[25px] z-[3] whitespace-pre text-[#16A34A]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">+5</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[48px] z-[4] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">vs last month</span>
+        </div>
+        <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#D4D6DA]/[1]"></div>
+      </div>
+      <div data-type="CONTAINER" class="w-[262px] h-[134px] absolute top-[132px] left-[604px] z-[6] bg-[#F6F7F9]/[1] rounded-[8px] shadow-[0px_1px_3px_0px_#0F172A1a] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[24px] left-[25px] z-[0] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Market Sentiment</span>
+          <div data-type="CONTAINER" class="w-[40px] h-[40px] absolute top-[30px] left-[197px] z-[2] bg-[#CBF0EA]/[0.3] rounded-[9999px] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <img data-type="ICON" class="absolute top-[10px] left-[10px] z-[0] w-[20px] h-[20px] text-[#0C9488]/[1] opacity-[1]" data-icon="Lucide_trending-up_Outlined" src="./assets/dashboard/IMG_14.svg">
+            </div>
+          </div>
+          <span data-type="TEXT" class="absolute top-[45px] left-[25px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[24px] leading-[32px] font-[600] text-left tracking-[0px] opacity-[1]">Bullish</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[25px] z-[3] whitespace-pre text-[#16A34A]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">+4.2%</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[72px] z-[4] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">vs last month</span>
+        </div>
+        <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#D4D6DA]/[1]"></div>
+      </div>
+      <div data-type="CONTAINER" class="w-[262px] h-[134px] absolute top-[132px] left-[890px] z-[7] bg-[#F6F7F9]/[1] rounded-[8px] shadow-[0px_1px_3px_0px_#0F172A1a] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[24px] left-[25px] z-[0] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Avg. Synthesis Time</span>
+          <div data-type="CONTAINER" class="w-[40px] h-[40px] absolute top-[30px] left-[197px] z-[2] bg-[#CBF0EA]/[0.3] rounded-[9999px] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <img data-type="ICON" class="absolute top-[10px] left-[10px] z-[0] w-[20px] h-[20px] text-[#0C9488]/[1] opacity-[1]" data-icon="Lucide_clock_Outlined" src="./assets/dashboard/IMG_15.svg">
+            </div>
+          </div>
+          <span data-type="TEXT" class="absolute top-[45px] left-[25px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[24px] leading-[32px] font-[600] text-left tracking-[0px] opacity-[1]">1.4h</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[25px] z-[3] whitespace-pre text-[#EF4444]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">-12%</span>
+          <span data-type="TEXT" class="absolute top-[92px] left-[63px] z-[4] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">vs last month</span>
+        </div>
+        <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#D4D6DA]/[1]"></div>
+      </div>
+      <div data-type="TEXTBOX" data-style="standard" class="absolute top-[297px] left-[810px] z-[12] w-[256px] h-[36px] opacity-[1]">
+        <div data-role="ELEMENT_WITH_LABEL_CONTENT_WRAPPER" class="flex flex-col justify-center h-full w-full">
+          <div data-role="ELEMENT_WITH_LABEL_INPUT_WRAPPER" class="relative flex items-center w-full flex-grow px-[10px] bg-[#F6F7F9]/[1] border-[1px] border-[#D4D6DA]/[1] rounded-[6px] gap-[6px]">
+            <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_search_Outlined" src="./assets/dashboard/IMG_3.svg">
+            <input type="text" value="" placeholder="Search projects..." class="w-full flex-1 text-[#595C61]/[1] text-[14px] leading-[22px] font-[400] font-[Inter] text-left placeholder:text-[#595C61]/[1] outline-none bg-transparent border-none" />
+          </div>
+        </div>
+      </div>
+      <button data-type="BUTTON" class="absolute top-[297px] left-[1074px] z-[11] min-w-[78px] h-[36px] px-[12px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+        <span class="whitespace-nowrap text-[14px] leading-[22px] font-[500] font-[Inter] text-[#0F172A]/[1]"> View All </span>
+      </button>
+      <span data-type="TEXT" class="absolute top-[299px] left-[32px] z-[10] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[24px] leading-[32px] font-[600] text-left tracking-[0px] opacity-[1]">Recent Research Projects</span>
+      <div data-type="CONTAINER" class="w-[1120px] h-[406px] absolute top-[349px] left-[32px] z-[13] bg-[#F6F7F9]/[1] rounded-[8px] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <div data-type="CONTAINER" class="w-[1120px] h-[406px] absolute top-[0px] left-[0px] z-[0] bg-[#000000]/[0] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit] overflow-auto">
+              <div data-type="CONTAINER" class="w-[1120px] h-[53px] absolute top-[0px] left-[0px] z-[0] bg-[#DFE1E4]/[0.3] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <div data-type="CONTAINER" class="w-[1120px] h-[53px] absolute top-[0px] left-[0px] z-[0] bg-[#000000]/[0] opacity-[1]">
+                    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                      <span data-type="TEXT" class="absolute top-[15px] left-[16px] z-[1] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Project Title</span>
+                      <span data-type="TEXT" class="absolute top-[15px] left-[464px] z-[2] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Industry</span>
+                      <span data-type="TEXT" class="absolute top-[15px] left-[685px] z-[3] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Status</span>
+                      <span data-type="TEXT" class="absolute top-[15px] left-[864px] z-[4] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Last Updated</span>
+                      <div data-type="DIVIDER" class="absolute top-[53px] left-[0px] z-[0] w-[1120px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-type="CONTAINER" class="w-[1120px] h-[71px] absolute top-[52px] left-[0px] z-[1] bg-[#000000]/[0] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <span data-type="TEXT" class="absolute top-[16px] left-[16px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">High-Efficiency Servo Motor Competitive Matrix</span>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1024px] z-[7] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_arrow-up-right_Outlined" src="./assets/dashboard/IMG_16.svg">
+                  </button>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1064px] z-[8] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_ellipsis_Outlined" src="./assets/dashboard/IMG_17.svg">
+                  </button>
+                  <span data-type="TEXT" class="absolute top-[23px] left-[464px] z-[3] whitespace-pre text-[#0F172A]/[0.8] font-[Inter] text-[16px] leading-[24px] font-[400] text-left tracking-[0px] opacity-[1]">Industrial Automation</span>
+                  <div data-type="CONTAINER" class="w-[99px] h-[22px] absolute top-[24px] left-[684px] z-[4] bg-[#E4FDF9]/[1] rounded-[9999px] opacity-[1]">
+                    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                      <span data-type="TEXT" class="absolute top-[2px] left-[24px] z-[1] whitespace-pre text-[#005A52]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">In Progress</span>
+                      <img data-type="ICON" class="absolute top-[4px] left-[8px] z-[0] w-[12px] h-[12px] text-[#005A52]/[1] opacity-[1]" data-icon="Lucide_clock_Outlined" src="./assets/dashboard/IMG_15.svg">
+                    </div>
+                    <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#B1E4DC]/[1]"></div>
+                  </div>
+                  <span data-type="TEXT" class="absolute top-[27px] left-[886px] z-[6] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">2 hours ago</span>
+                  <img data-type="ICON" class="absolute top-[28px] left-[863px] z-[5] w-[14px] h-[14px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_clock_Outlined" src="./assets/dashboard/IMG_15.svg">
+                  <span data-type="TEXT" class="absolute top-[38px] left-[16px] z-[2] whitespace-pre text-[#595C61]/[1] font-['JetBrains_Mono'] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">RES-001</span>
+                  <div data-type="DIVIDER" class="absolute top-[71px] left-[0px] z-[0] w-[1120px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+                </div>
+              </div>
+              <div data-type="CONTAINER" class="w-[1120px] h-[71px] absolute top-[123px] left-[0px] z-[2] bg-[#000000]/[0] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <span data-type="TEXT" class="absolute top-[15px] left-[16px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">EU Market Trends: BLDC Motors 2024-2026</span>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1024px] z-[7] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_arrow-up-right_Outlined" src="./assets/dashboard/IMG_16.svg">
+                  </button>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1064px] z-[8] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_ellipsis_Outlined" src="./assets/dashboard/IMG_17.svg">
+                  </button>
+                  <span data-type="TEXT" class="absolute top-[22px] left-[464px] z-[3] whitespace-pre text-[#0F172A]/[0.8] font-[Inter] text-[16px] leading-[24px] font-[400] text-left tracking-[0px] opacity-[1]">Consumer Appliances</span>
+                  <div data-type="CONTAINER" class="w-[96px] h-[22px] absolute top-[24px] left-[684px] z-[4] bg-[#E8FEE8]/[1] rounded-[9999px] opacity-[1]">
+                    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                      <span data-type="TEXT" class="absolute top-[2px] left-[24px] z-[1] whitespace-pre text-[#0C6B1D]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">Completed</span>
+                      <img data-type="ICON" class="absolute top-[4px] left-[8px] z-[0] w-[12px] h-[12px] text-[#0C6B1D]/[1] opacity-[1]" data-icon="Lucide_circle-check_Outlined" src="./assets/dashboard/IMG_18.svg">
+                    </div>
+                    <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#BFEDBF]/[1]"></div>
+                  </div>
+                  <span data-type="TEXT" class="absolute top-[26px] left-[886px] z-[6] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Yesterday</span>
+                  <img data-type="ICON" class="absolute top-[28px] left-[863px] z-[5] w-[14px] h-[14px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_clock_Outlined" src="./assets/dashboard/IMG_15.svg">
+                  <span data-type="TEXT" class="absolute top-[37px] left-[16px] z-[2] whitespace-pre text-[#595C61]/[1] font-['JetBrains_Mono'] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">RES-002</span>
+                  <div data-type="DIVIDER" class="absolute top-[71px] left-[0px] z-[0] w-[1120px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+                </div>
+              </div>
+              <div data-type="CONTAINER" class="w-[1120px] h-[71px] absolute top-[193px] left-[0px] z-[3] bg-[#000000]/[0] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <span data-type="TEXT" class="absolute top-[16px] left-[16px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Rare Earth Magnet Supply Chain Vulnerabilities</span>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1024px] z-[7] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_arrow-up-right_Outlined" src="./assets/dashboard/IMG_16.svg">
+                  </button>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1064px] z-[8] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_ellipsis_Outlined" src="./assets/dashboard/IMG_17.svg">
+                  </button>
+                  <span data-type="TEXT" class="absolute top-[23px] left-[464px] z-[3] whitespace-pre text-[#0F172A]/[0.8] font-[Inter] text-[16px] leading-[24px] font-[400] text-left tracking-[0px] opacity-[1]">Raw Materials</span>
+                  <div data-type="CONTAINER" class="w-[129px] h-[22px] absolute top-[24px] left-[684px] z-[4] bg-[#FFF5EA]/[1] rounded-[9999px] opacity-[1]">
+                    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                      <span data-type="TEXT" class="absolute top-[2px] left-[24px] z-[1] whitespace-pre text-[#8B5700]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">Review Required</span>
+                      <img data-type="ICON" class="absolute top-[4px] left-[8px] z-[0] w-[12px] h-[12px] text-[#8B5700]/[1] opacity-[1]" data-icon="Lucide_circle-alert_Outlined" src="./assets/dashboard/IMG_19.svg">
+                    </div>
+                    <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#FFE0BD]/[1]"></div>
+                  </div>
+                  <span data-type="TEXT" class="absolute top-[27px] left-[886px] z-[6] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">3 days ago</span>
+                  <img data-type="ICON" class="absolute top-[28px] left-[863px] z-[5] w-[14px] h-[14px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_clock_Outlined" src="./assets/dashboard/IMG_15.svg">
+                  <span data-type="TEXT" class="absolute top-[38px] left-[16px] z-[2] whitespace-pre text-[#595C61]/[1] font-['JetBrains_Mono'] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">RES-003</span>
+                  <div data-type="DIVIDER" class="absolute top-[71px] left-[0px] z-[0] w-[1120px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+                </div>
+              </div>
+              <div data-type="CONTAINER" class="w-[1120px] h-[71px] absolute top-[264px] left-[0px] z-[4] bg-[#000000]/[0] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <span data-type="TEXT" class="absolute top-[16px] left-[16px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Global Expansion: Asia-Pacific Logistics Analysis</span>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1024px] z-[7] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_arrow-up-right_Outlined" src="./assets/dashboard/IMG_16.svg">
+                  </button>
+                  <button data-type="BUTTON" class="absolute top-[19px] left-[1064px] z-[8] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                    <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_ellipsis_Outlined" src="./assets/dashboard/IMG_17.svg">
+                  </button>
+                  <span data-type="TEXT" class="absolute top-[23px] left-[464px] z-[3] whitespace-pre text-[#0F172A]/[0.8] font-[Inter] text-[16px] leading-[24px] font-[400] text-left tracking-[0px] opacity-[1]">Automotive</span>
+                  <div data-type="CONTAINER" class="w-[95px] h-[22px] absolute top-[24px] left-[684px] z-[4] bg-[#EAECEE]/[1] rounded-[9999px] opacity-[1]">
+                    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                      <span data-type="TEXT" class="absolute top-[2px] left-[24px] z-[1] whitespace-pre text-[#7A7E84]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">Scheduled</span>
+                      <img data-type="ICON" class="absolute top-[4px] left-[8px] z-[0] w-[12px] h-[12px] text-[#7A7E84]/[1] opacity-[1]" data-icon="Lucide_history_Outlined" src="./assets/dashboard/IMG_20.svg">
+                    </div>
+                    <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#DFE1E4]/[1]"></div>
+                  </div>
+                  <span data-type="TEXT" class="absolute top-[27px] left-[886px] z-[6] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">5 days ago</span>
+                  <img data-type="ICON" class="absolute top-[28px] left-[863px] z-[5] w-[14px] h-[14px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_clock_Outlined" src="./assets/dashboard/IMG_15.svg">
+                  <span data-type="TEXT" class="absolute top-[38px] left-[16px] z-[2] whitespace-pre text-[#595C61]/[1] font-['JetBrains_Mono'] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">RES-004</span>
+                  <div data-type="DIVIDER" class="absolute top-[71px] left-[0px] z-[0] w-[1120px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+                </div>
+              </div>
+              <span data-type="TEXT" class="absolute top-[350px] left-[16px] z-[5] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Sustainability Report: Domel Carbon Footprint 2023</span>
+              <button data-type="BUTTON" class="absolute top-[354px] left-[1024px] z-[11] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_arrow-up-right_Outlined" src="./assets/dashboard/IMG_16.svg">
+              </button>
+              <button data-type="BUTTON" class="absolute top-[354px] left-[1064px] z-[12] min-w-[32px] h-[32px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                <img class="w-[16px] h-[16px] text-[#595C61]/[1]" data-icon="Lucide_ellipsis_Outlined" src="./assets/dashboard/IMG_17.svg">
+              </button>
+              <span data-type="TEXT" class="absolute top-[357px] left-[464px] z-[7] whitespace-pre text-[#0F172A]/[0.8] font-[Inter] text-[16px] leading-[24px] font-[400] text-left tracking-[0px] opacity-[1]">Corporate Strategy</span>
+              <div data-type="CONTAINER" class="w-[96px] h-[22px] absolute top-[359px] left-[684px] z-[8] bg-[#E8FEE8]/[1] rounded-[9999px] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <span data-type="TEXT" class="absolute top-[2px] left-[24px] z-[1] whitespace-pre text-[#0C6B1D]/[1] font-[Inter] text-[12px] leading-[16px] font-[500] text-left tracking-[0px] opacity-[1]">Completed</span>
+                  <img data-type="ICON" class="absolute top-[4px] left-[8px] z-[0] w-[12px] h-[12px] text-[#0C6B1D]/[1] opacity-[1]" data-icon="Lucide_circle-check_Outlined" src="./assets/dashboard/IMG_18.svg">
+                </div>
+                <div data-role="ELEMENT_BORDER" class="absolute inset-0 z-[1] bg-transparent pointer-events-none rounded-[inherit] border-[1px] border-[#BFEDBF]/[1]"></div>
+              </div>
+              <span data-type="TEXT" class="absolute top-[361px] left-[886px] z-[10] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">1 week ago</span>
+              <img data-type="ICON" class="absolute top-[363px] left-[863px] z-[9] w-[14px] h-[14px] text-[#595C61]/[1] opacity-[1]" data-icon="Lucide_clock_Outlined" src="./assets/dashboard/IMG_15.svg">
+              <span data-type="TEXT" class="absolute top-[372px] left-[16px] z-[6] whitespace-pre text-[#595C61]/[1] font-['JetBrains_Mono'] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">RES-005</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-type="CONTAINER" class="w-[739px] h-[390px] absolute top-[786px] left-[32px] z-[8] bg-[#F6F7F9]/[1] rounded-[8px] shadow-[0px_1px_3px_0px_#0F172A1a] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <div data-type="CONTAINER" class="w-[739px] h-[53px] absolute top-[0px] left-[0px] z-[0] bg-[#DFE1E4]/[0.1] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <span data-type="TEXT" class="absolute top-[15px] left-[24px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[600] text-left tracking-[0px] opacity-[1]">Latest Market Intelligence</span>
+              <div data-type="TAG" data-style="SOLID" class="absolute top-[16px] left-[619px] z-[2] w-[94px] h-[20px] flex items-center justify-center gap-[4px] opacity-[1]">
+                <div data-type="TAG_ITEM" class="relative w-[94px] h-[20px] flex items-center justify-center px-[9px] bg-[#14B8A6]/[0.1] rounded-[10px] gap-[4px] opacity-[1]">
+                  <span class="whitespace-nowrap text-[12px] leading-[20px] font-[600] font-[Inter] text-[#0D9488]/[1]"> Live Updates </span>
+                </div>
+              </div>
+              <div data-type="DIVIDER" class="absolute top-[53px] left-[0px] z-[0] w-[739px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+            </div>
+          </div>
+          <div data-type="CONTAINER" class="w-[40px] h-[40px] absolute top-[68px] left-[16px] z-[1] bg-[#F3F7FE]/[1] rounded-[4px] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <img data-type="ICON" class="absolute top-[10px] left-[10px] z-[0] w-[20px] h-[20px] text-[#0F172A]/[1] opacity-[1]" data-icon="Lucide_trending-up_Outlined" src="./assets/dashboard/IMG_14.svg">
+            </div>
+          </div>
+          <span data-type="TEXT" class="absolute top-[68px] left-[72px] z-[2] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Competitor Price Shift Detected</span>
+          <div data-type="CONTAINER" class="w-[651px] h-[32px] absolute top-[92px] left-[72px] z-[3] bg-[#000000]/[0] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit] overflow-hidden">
+              <span data-type="TEXT" class="absolute top-[-1px] left-[0px] z-[0] w-[636px] text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Siemens has announced a 5% reduction in their mid-range servo motor line for the DACH region, effective next quarter.</span>
+            </div>
+          </div>
+          <div data-type="CONTAINER" class="w-[739px] h-[89px] absolute top-[140px] left-[0px] z-[4] bg-[#000000]/[0] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <div data-type="DIVIDER" class="absolute top-[0px] left-[0px] z-[0] w-[739px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+              <div data-type="CONTAINER" class="w-[40px] h-[40px] absolute top-[16px] left-[16px] z-[1] bg-[#E4FDF9]/[1] rounded-[4px] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <img data-type="ICON" class="absolute top-[10px] left-[10px] z-[0] w-[20px] h-[20px] text-[#0C9488]/[1] opacity-[1]" data-icon="Lucide_file-text_Outlined" src="./assets/dashboard/IMG_4.svg">
+                </div>
+              </div>
+              <span data-type="TEXT" class="absolute top-[16px] left-[72px] z-[2] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">New Regulatory Standard: Ecodesign 2024</span>
+              <div data-type="CONTAINER" class="w-[651px] h-[32px] absolute top-[40px] left-[72px] z-[3] bg-[#000000]/[0] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit] overflow-hidden">
+                  <span data-type="TEXT" class="absolute top-[0px] left-[0px] z-[0] w-[660px] text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Final draft of EU Ecodesign requirements for electric motors includes stricter IE4 efficiency mandates for units over 75kW.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-type="CONTAINER" class="w-[739px] h-[89px] absolute top-[229px] left-[0px] z-[5] bg-[#000000]/[0] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <div data-type="DIVIDER" class="absolute top-[0px] left-[0px] z-[0] w-[739px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+              <div data-type="CONTAINER" class="w-[40px] h-[40px] absolute top-[16px] left-[16px] z-[1] bg-[#FFF5EA]/[1] rounded-[4px] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+                  <img data-type="ICON" class="absolute top-[10px] left-[10px] z-[0] w-[20px] h-[20px] text-[#0F172A]/[1] opacity-[1]" data-icon="Lucide_circle-alert_Outlined" src="./assets/dashboard/IMG_19.svg">
+                </div>
+              </div>
+              <span data-type="TEXT" class="absolute top-[16px] left-[72px] z-[2] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Supply Chain Alert: Copper Pricing</span>
+              <div data-type="CONTAINER" class="w-[651px] h-[32px] absolute top-[40px] left-[72px] z-[3] bg-[#000000]/[0] opacity-[1]">
+                <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit] overflow-hidden">
+                  <span data-type="TEXT" class="absolute top-[-1px] left-[0px] z-[0] w-[651px] text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Spot prices for industrial-grade copper have surged by 8% following labor disputes in Chilean mines. Impact assessment needed.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-type="CONTAINER" class="w-[739px] h-[61px] absolute top-[318px] left-[0px] z-[6] bg-[#DFE1E4]/[0.05] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <div data-type="DIVIDER" class="absolute top-[0px] left-[0px] z-[0] w-[739px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+              <button data-type="BUTTON" class="absolute top-[12px] left-[292px] z-[1] min-w-[154px] h-[36px] px-[12px] flex items-center justify-center gap-[0px] bg-[#000000]/[0] rounded-[6px] opacity-[1]">
+                <span class="whitespace-nowrap text-[12px] leading-[20px] font-[500] font-[Inter] text-[#595C61]/[1]"> View Intelligence Feed </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-type="CONTAINER" class="w-[358px] h-[390px] absolute top-[786px] left-[794px] z-[9] bg-[#F6F7F9]/[1] rounded-[8px] shadow-[0px_1px_3px_0px_#0F172A1a] opacity-[1]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[15px] left-[24px] z-[0] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[600] text-left tracking-[0px] opacity-[1]">User Activity</span>
+          <span data-type="TEXT" class="absolute top-[41px] left-[24px] z-[1] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[14px] leading-[20px] font-[400] text-left tracking-[0px] opacity-[1]">Your recent actions</span>
+          <div data-type="CONTAINER" class="w-[310px] h-[88px] absolute top-[78px] left-[24px] z-[2] bg-[#000000]/[0] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <span data-type="TEXT" class="absolute top-[-1px] left-[24px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Generated Strategy Report</span>
+              <div data-type="RECTANGLE" class="absolute top-[0px] left-[-5px] z-[4] w-[10px] h-[10px] bg-[#0F172A]/[1] rounded-[9999px] opacity-[1]"></div>
+              <div data-type="DIVIDER" class="absolute top-[0px] left-[0px] z-[0] w-[88px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1] rotate-[90deg] origin-left"></div>
+              <span data-type="TEXT" class="absolute top-[19px] left-[24px] z-[2] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">BLDC Market Trends</span>
+              <span data-type="TEXT" class="absolute top-[45px] left-[24px] z-[3] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[10px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">10:45 AM</span>
+            </div>
+          </div>
+          <div data-type="CONTAINER" class="w-[310px] h-[88px] absolute top-[190px] left-[24px] z-[3] bg-[#000000]/[0] opacity-[1]">
+            <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+              <span data-type="TEXT" class="absolute top-[-1px] left-[24px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Modified Research Goal</span>
+              <div data-type="RECTANGLE" class="absolute top-[0px] left-[-5px] z-[4] w-[10px] h-[10px] bg-[#D4D6DA]/[1] rounded-[9999px] opacity-[1]"></div>
+              <div data-type="DIVIDER" class="absolute top-[0px] left-[0px] z-[0] w-[88px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1] rotate-[90deg] origin-left"></div>
+              <span data-type="TEXT" class="absolute top-[19px] left-[24px] z-[2] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Servo Motor Matrix</span>
+              <span data-type="TEXT" class="absolute top-[45px] left-[24px] z-[3] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[10px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Yesterday</span>
+            </div>
+          </div>
+          <span data-type="TEXT" class="absolute top-[301px] left-[48px] z-[4] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[14px] leading-[20px] font-[500] text-left tracking-[0px] opacity-[1]">Invited Team Member</span>
+          <div data-type="RECTANGLE" class="absolute top-[302px] left-[19px] z-[7] w-[10px] h-[10px] bg-[#D4D6DA]/[1] rounded-[9999px] opacity-[1]"></div>
+          <span data-type="TEXT" class="absolute top-[321px] left-[48px] z-[5] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Sarah K. (Senior Analyst)</span>
+          <span data-type="TEXT" class="absolute top-[347px] left-[48px] z-[6] whitespace-pre text-[#595C61]/[1] font-[Inter] text-[10px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Oct 24, 2023</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-type="CONTAINER" class="w-[1184px] h-[49px] absolute top-[1272px] left-[256px] z-[2] bg-[#F6F7F9]/[1] opacity-[1]">
+    <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+      <div data-type="DIVIDER" class="absolute top-[0px] left-[0px] z-[0] w-[1184px] h-[0px] border-t-[1px] border-[#D4D6DA]/[1]"></div>
+      <div data-type="CONTAINER" class="w-[1120px] h-[16px] absolute top-[16px] left-[32px] z-[1] bg-[#000000]/[0] opacity-[0.5]">
+        <div data-role="CONTAINER_CHILDREN_WRAPPER" class="relative z-[0] w-full h-full rounded-[inherit]">
+          <span data-type="TEXT" class="absolute top-[-1px] left-[0px] z-[0] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">© 2024 Domel Electric Motors. All rights reserved.</span>
+          <span data-type="TEXT" class="absolute top-[-1px] left-[792px] z-[1] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Privacy Policy</span>
+          <span data-type="TEXT" class="absolute top-[-1px] left-[899px] z-[2] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Terms of Service</span>
+          <span data-type="TEXT" class="absolute top-[-1px] left-[1023px] z-[3] whitespace-pre text-[#0F172A]/[1] font-[Inter] text-[12px] leading-[16px] font-[400] text-left tracking-[0px] opacity-[1]">Contact Support</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
